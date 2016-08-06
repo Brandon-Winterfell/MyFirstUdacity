@@ -1,17 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#EEEEEE"
+    android:gravity="center_horizontal"
     tools:context="com.example.myappportfolio.MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"/>
-</RelativeLayout>
+        android:layout_marginTop="40dp"
+        android:text="@string/my_nanodegree_apps"
+        android:textColor="#2E3D49"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:onClick="showToastPopularMovie"
+        android:id="@+id/popular_movies_btn"
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/popular_movies"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/stock_hawk"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/build_it_bigger"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/make_your_app_material"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/go_ubiqutous"
+        android:textSize="16sp"
+        />
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:background="#2D3D4A"
+        android:textColor="@android:color/white"
+        android:text="@string/capstone"
+        android:textSize="16sp"
+        />
+
+</LinearLayout>
