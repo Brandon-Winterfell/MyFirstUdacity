@@ -13,6 +13,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /***
+     * PopularMovie按钮的点击事件
+     * @param view
+     */
     public void showToastPopularMovie(View view) {
         Toast.makeText(MainActivity.this, "This button will launch my capstone app!", Toast.LENGTH_SHORT).show();
     }
